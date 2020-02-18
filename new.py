@@ -1,29 +1,7 @@
-import java.util.Scanner;
-
-public class Demo {
-
-    public static void main(String[] args) {
-
-        /* This reads the input provided by user
-         * using keyboard
-         */
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-
-        // This method reads the number provided using keyboard
-        int num1 = scan.nextInt();
-        
-        System.out.print("Enter second number: ");
-        int num2 = scan.nextInt();
-
-        // Closing Scanner after the use
-        scan.close();
-        
-        // Calculating product of two numbers
-        int product = num1*num2;
-        
-        // Displaying the multiplication result
-        System.out.println("Output: "+product);
-    }
-}
-Output:
+# This program adds two numbers
+num1 = 1.5
+num2 = 6.3
+# Add two numbers
+sum = float(num1) + float(num2)
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
